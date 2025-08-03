@@ -156,7 +156,7 @@ for link in reference_links:
     cell.hyperlink = link
     cell.font = Font(color="0000FF", underline="single")
 
-filename = "calgary_rentals_early_exit.xlsx"
+filename = "calgary_rentals.xlsx"
 wb.save(filename)
 
 print(f"\n📦 Total listings collected: {len(data)}")
