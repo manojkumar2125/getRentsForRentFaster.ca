@@ -33,7 +33,7 @@ pip install requests beautifulsoup4 pandas openpyxl
 
 1. Clone the repository:
 
-   ```bash
+   ```git clone https://github.com/manojkumar2125/getRentsForRentFaster.ca.git
    
    ```
 
@@ -43,22 +43,18 @@ pip install requests beautifulsoup4 pandas openpyxl
    python scrape_rentfaster.py
    ```
 
-3. After completion, check the generated Excel file `rentfaster_listings.xlsx` in the project folder. The file will contain all the rental listings with details in separate columns.
+3. After completion, check the generated Excel file `calgary_rentals.xlsx` in the project folder. The file will contain all the rental listings with details in separate columns.
 
 ## Output Excel Columns
 
-* Listing ID
 * Title / Property Name
 * Address
 * City
-* Postal Code
 * Rent Price
 * Bedrooms
 * Bathrooms
 * Square Footage (if available)
 * Description
-* Contact Name
-* Contact Phone / Email
 * Listing URL
 
 ## Notes
